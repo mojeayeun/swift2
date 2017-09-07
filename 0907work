@@ -1,0 +1,17 @@
+1. http://localhost/week6/login.php
+
+login.php의 내용은 id,password return
+<?php
+// Read request parameters
+$firstName= $_REQUEST["id"];
+$lastName = $_REQUEST["password"];// Store values in an array
+$returnValue = array("id"=>$firstName, "password"=>$lastName);// Send back request in JSON format
+echo json_encode($returnValue); 
+?>
+
+
+2. swift
+andy_2nd_semester > IOS > week1 
+
+아직..http , json하는 방법은 찾지 못함.. 오류 발생
+
